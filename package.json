@@ -4,7 +4,7 @@
   "description": "The Comedy Resistance Tour (Promotional Website)",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
