@@ -1,0 +1,22 @@
+{
+  "name": "comedy_resistance",
+  "version": "1.0.0",
+  "description": "The Comedy Resistance Tour (Promotional Website)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jimmybillings/comedy_resistance.git"
+  },
+  "author": "James Billings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmybillings/comedy_resistance/issues"
+  },
+  "homepage": "https://github.com/jimmybillings/comedy_resistance#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
