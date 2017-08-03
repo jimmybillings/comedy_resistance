@@ -1,184 +1,56 @@
 extends layout
 
 block content
-  nav.white(role='navigation')
-    .nav-wrapper.container
-      a#logo-container.brand-logo(href='#') The Comedy Resistance
-      ul.right.hide-on-med-and-down
-        li
-          a(href='#') Navbar Link
-      ul#nav-mobile.side-nav
-        li
-          a(href='#') Navbar Link
-      a.button-collapse(href='#', data-activates='nav-mobile')
-        i.material-icons menu
-  #index-banner.parallax-container
-    .section.no-pad-bot
-      .container
-        br
-        br
-        h1.header.center.red-text.text-darken-2 The Comedy Resistance
-        .row.center
-          h5.header.col.s12.light
-        .row.center
-          a#download-button.btn-large.waves-effect.waves-light.red.darken-2(href='') Get Involved
-        br
-        br
-    .parallax
-      img(src='images/background1.jpg', alt='Unsplashed background img 1')
+  //- nav.white(role='navigation')
+  //-   .nav-wrapper.container
+  //-     a#logo-container.brand-logo(href='#') The Comedy Resistance
+  //-     ul.right.hide-on-med-and-down
+  //-       li
+  //-         a(href='#') Navbar Link
+  //-     ul#nav-mobile.side-nav
+  //-       li
+  //-         a(href='#') Navbar Link
+  //-     a.button-collapse(href='#', data-activates='nav-mobile')
+  //-       i.material-icons menu
+  div.hero-container
+    .container
+      .section
+        .row
+          .col.s12.l6.center
+            img(class="hero" src="images/logo.png")
+          .col.s12.l6.center
+            .hero-text
+              h3.light.tk-bebas-neue
+                | It’s time to fight clowns with clowns! Headlined by many of today’s top comedians, The Comedy Resistance is organizing a cross-country barnstormin’ tour across crucial congressional districts. Our goal is to defeat at least 24 of the red clowns sitting in those seats and take back the House of Representatives in 2018.
+              
+              h3.light.tk-bebas-neue
+                | Join The Comedy Resistance and wage yucks against cucks!
+  
+
   .container
-    .section
-      // Icon Section
-      .row
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons flash_on
-            h5.center District 1
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons group
-            h5.center District 2
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons settings
-            h5.center District 3
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-      .row
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons flash_on
-            h5.center District 4
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons group
-            h5.center District 5
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons settings
-            h5.center District 6
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-  .parallax-container.valign-wrapper
-    .section.no-pad-bot
-      .container
-        .row.center
-          h5.header.col.s12.light A modern responsive front-end framework based on Material Design
-    .parallax
-      img(src='images/background2.jpg', alt='Unsplashed background img 2')
-  .container
-    .section
-      .row
-        .col.s12.center
-          h3
-            i.mdi-content-send.brown-text
-          h4 Contact Us
-          p.left-align.light
-            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-  .parallax-container.valign-wrapper
-    .section.no-pad-bot
-      .container
-        .row.center
-          h5.header.col.s12.light A modern responsive front-end framework based on Material Design
-    .parallax
-      img(src='images/background1.jpg', alt='Unsplashed background img 1')
-  .container
-    .section
-      // Icon Section
-      .row
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons flash_on
-            h5.center District 1
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons group
-            h5.center District 2
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons settings
-            h5.center District 3
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-      .row
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons flash_on
-            h5.center District 4
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons group
-            h5.center District 5
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        .col.s12.m4
-          .icon-block
-            h2.center.brown-text
-              i.material-icons settings
-            h5.center District 6
-            p.light
-              | At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-  .parallax-container.valign-wrapper
-    .section.no-pad-bot
-      .container
-        .row.center
-          h5.header.col.s12.light A modern responsive front-end framework based on Material Design
-    .parallax
-      img(src='images/background2.jpg', alt='Unsplashed background img 2')
-  footer.page-footer.red.darken-2
+    .row
+      .col.s12
+        h2.left-align Click on a 
+          span.district district 
+          | to find out more.
+      .col.s12.center
+        #map
+  footer.page-footer
     .container
       .row
-        .col.l6.s12
+        .col.l9.s12
           h5.white-text Who are we
           p.grey-text.text-lighten-4
-            | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        .col.l3.s12
-          h5.white-text Settings
-          ul
-            li
-              a.white-text(href='#!') Link 1
-            li
-              a.white-text(href='#!') Link 2
-            li
-              a.white-text(href='#!') Link 3
-            li
-              a.white-text(href='#!') Link 4
+            | The Comedy Resistance is a political organization led by comedians, (and anyone who likes to laugh) dedicated to making positive change by activating citizens in districts across the country. We’re partnering with Swing Left and House Democratic candidates, who will help connect TCR and its members with ways to get involved and the most important actions we can take to help achieve our goal on Election Day next November.
         .col.l3.s12
           h5.white-text Connect
-          ul
+          ul.social-icons
             li
-              a.white-text(href='#!') Link 1
+              a.white-text(href='#!')
+                img(src="images/facebook.png")
             li
-              a.white-text(href='#!') Link 2
-            li
-              a.white-text(href='#!') Link 3
-            li
-              a.white-text(href='#!') Link 4
+              a.white-text(href='#!')
+                img(src="images/twitter.png")
     .footer-copyright
       .container
         a.brown-text.text-lighten-3(href='http://materializecss.com') The Comedy Resistance

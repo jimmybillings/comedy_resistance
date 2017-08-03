@@ -53,5 +53,32 @@ p {
 }
 
 footer.page-footer {
-  margin: 0;
+  background-color:#BB6357;
+}
+
+/* MAPS  */
+span.district {
+  background-color: #BB6357;
+  padding: 5px 15px;
+  margin: 15px;
+}
+#map { 
+  height: 550px;
+  width:100%;
+ }
+
+.hero-container {
+  background: darkcyan;
+  color: white;
+}
+
+.hero-container h3 {
+  font-size: 26px;
+  line-height: 1.3;
+}
+.hero {
+  height: 460px; 
+}
+.social-icons img {
+  height: 50px;
 }
